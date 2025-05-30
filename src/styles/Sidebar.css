@@ -1,0 +1,21 @@
+.left-side {
+    width: 25vw;
+    background-color: #202020;
+    /*box-shadow: 0 4px 8px 10px rgba(0, 0, 0, 0.2), 0 6px 20px 10px rgba(0, 0, 0, 0.19);*/
+}
+
+.social-logo {
+    /*background-color: #fff;*/
+    margin: 0.5rem;
+}
+
+.sidebar-btn {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 1.5rem;
+}
+
+.right-side {
+    width: 75vw;
+    background-color: #181818;
+}

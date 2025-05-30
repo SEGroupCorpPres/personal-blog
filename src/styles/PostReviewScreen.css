@@ -1,0 +1,167 @@
+.post-review-screen {
+    width: 100%;
+    min-height: auto;
+    padding: 80px 50px;
+}
+
+.margin-0 {
+    margin: 0;
+}
+
+.padding-0 {
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 30px;
+}
+
+.post-navbar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.post-nav {
+    color: white;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0;
+}
+
+.post-nav-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+}
+
+.justify-start {
+    justify-content: start;
+    align-items: flex-start;
+}
+
+.post-body {
+    justify-content: start;
+}
+
+.post-title {
+    text-align: left;
+}
+
+.post-content {
+    margin: 20px 0 40px 0;
+    box-shadow: none;
+}
+
+hr {
+    width: 100%;
+    border: 1px solid #202020;
+    margin: 50px 0;
+}
+
+.post-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.post-footer-title {
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 100%;
+    letter-spacing: 0;
+    margin-bottom: 30px;
+}
+
+.post-actions {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: stretch;
+    align-items: center;
+}
+
+.post-action {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+
+.post-action-title {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0;
+    color: #F3EBA2;
+}
+
+.post-comments {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: start;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: start;
+    width: 100%;
+}
+
+.add-comment-input {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    padding: 10px 0;
+    flex-direction: row;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #202020;
+    background-color: transparent;
+}
+
+form button {
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #104BE3;
+    color: white;
+    border: none;
+    margin-bottom: 30px;
+}
+
+.comment{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: left;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.user-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.comment-answers{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 50px;
+}
