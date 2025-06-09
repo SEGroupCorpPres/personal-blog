@@ -7,12 +7,12 @@ import smartphoneImg from "../assets/images/smartphone.jpg";
 import post_videoImg from "../assets/images/post_video.png";
 import post_img from "../assets/images/post_img.jpg";
 
-function HomeScreen({posts, addPost}) {
+function HomeScreen({posts, addPost, addStory, stories}) {
 
     return (
         <main>
-            <Stories/>
-            <MessageField addPost={addPost} />
+            <Stories  stories={stories} />
+            <MessageField addPost={addPost} addStory={addStory} />
             <PostList postsList={posts} />
         </main>
     );

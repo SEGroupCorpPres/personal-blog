@@ -43,19 +43,50 @@ let postsList = [
         ],
     },
 ]
-
+let storiesList = [
+    {
+        title: "Отдыхаю на природе",
+        date: "21.09.2020",
+        image: '',
+        className: "first",
+    },
+    {
+        title: "Заканчиваю сложный проект",
+        date: "15.09.2020",
+        image: '',
+        className: "second",
+    },
+    {
+        title: "Переехал в новую квартиру",
+        date: "11.09.2020",
+        image: '',
+        className: "third",
+    },
+    {
+        title: "Осень пришла!",
+        date: "28.08.2020",
+        image: '',
+        className: "fourth",
+    }
+]
 function App() {
     const [posts, setPosts] = useState(postsList)
+    const [stories, setStories] = useState(storiesList)
     // add post function
     function addPost(post) {
         console.log(post)
         setPosts((posts) => [...posts, post])
         console.log(posts)
     }
+    function addStory(story) {
+        console.log(story)
+        setStories((stories) => [...stories, story])
+        console.log(stories)
+    }
     return (
         <div className="app d-flex flex-row align-items-start justify-content-center h-100 vw-100 text-center text-white">
             <LeftSidebar />
-            <RightSide addPost={addPost} posts={posts} />
+            <RightSide addPost={addPost} posts={posts} addStory={addStory} stories={stories} />
         </div>
     );
 }

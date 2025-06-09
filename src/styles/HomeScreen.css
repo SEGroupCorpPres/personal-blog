@@ -10,13 +10,15 @@ main{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
+    box-sizing: content-box;
 }
 
 .story{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 200px;
+    width: 170px;
     height: 275px;
     padding: 10px 10px;
     background-size: cover;
@@ -52,6 +54,10 @@ main{
 
 .fourth{
     background-image: url("../assets/images/story_4.jpeg");
+}
+
+.fifth{
+    background-image: url("../assets/images/codmads.jpg");
 }
 
 /*Message field*/
