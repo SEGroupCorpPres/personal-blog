@@ -3,7 +3,7 @@ import React from 'react';
 function SearchScreen(props) {
     return (
         <div>
-            <h1>This is Search Screen</h1>
+            <h2>This is Search Screen</h2>
         </div>
     );
 }
