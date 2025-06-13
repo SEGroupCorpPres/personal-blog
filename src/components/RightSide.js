@@ -3,6 +3,7 @@ import HomeScreen from "../screens/HomeScreen";
 import Navbar from "./Navbar";
 import PostReviewScreen from "../screens/PostReviewScreen";
 import {Route, Routes} from "react-router-dom";
+import SearchScreen from "../screens/SearchScreen";
 
 function RightSide({posts, addPost, addStory, stories}) {
     return (
@@ -13,6 +14,7 @@ function RightSide({posts, addPost, addStory, stories}) {
                 <Route index element={<HomeScreen posts={posts} addPost={addPost} addStory={addStory} stories={stories} />}/>
                 <Route path="/post-review" element={<PostReviewScreen/>}/>
                 {/*<Route path="settings" element={<Settings/>}/>*/}
+                <Route path="/search-screen" element={<SearchScreen/>}/>
             </Routes>
         </div>
     );
