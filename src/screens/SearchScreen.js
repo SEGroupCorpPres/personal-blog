@@ -67,7 +67,6 @@ function SearchScreen() {
                         <a href="#" className={"text-decoration-none"}>перейти</a>
                     </div>
                 </div>
-
             </div>
         </section>
     );
