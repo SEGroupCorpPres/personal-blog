@@ -1,0 +1,51 @@
+.card {
+    display: flex;
+    max-width: 900px;
+    margin: 50px auto;
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 1px rgba(0,0,0,0.5);
+    color:white;
+}
+.card-image {
+    width: 50%;
+    object-fit:cover;
+}
+.card-content {
+    padding:30px;
+    width: 50%;
+}
+.card-cantent  h2 {
+    margin: 0;
+    font-size: 24px;
+    color:white;
+}
+
+.card-content p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #ccc;
+}
+
+.tags {
+    margin: 15px 0;
+}
+.tags span {
+    display: inline-block;
+    background-color: orange;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+    margin-right: 5px;
+}
+.card-button {
+    display: inline-block;
+    background-color: orange;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+
+}
